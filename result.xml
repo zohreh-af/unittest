@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="4.094" timestamp="2024-09-25T22:00:31.111859+03:30" hostname="DESKTOP-DAKU0NJ"><testcase classname="test_person_pytest.TestPerson" name="test_fullname" time="2.002"><failure message="AssertionError: assert 'zohreh abbasi' == 'zohreh ABBASI'&#10;  &#10;  - zohreh ABBASI&#10;  + zohreh abbasi">self = &lt;test_person_pytest.TestPerson object at 0x000001FE0391DD30&gt;, setup = 'setup'
+
+    def test_fullname(self,setup):
+&gt;       assert self.p1.fullname() == "zohreh ABBASI"
+E       AssertionError: assert 'zohreh abbasi' == 'zohreh ABBASI'
+E         
+E         - zohreh ABBASI
+E         + zohreh abbasi
+
+test_person_pytest.py:15: AssertionError</failure></testcase><testcase classname="test_person_pytest.TestPerson" name="test_email" time="2.002" /></testsuite></testsuites>
